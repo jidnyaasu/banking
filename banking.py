@@ -3,6 +3,7 @@ import sqlite3
 import os.path
 
 
+# Card class
 class Card:
     def __init__(self):
         num = "400000" + str(random.randint(100000000, 999999999))
